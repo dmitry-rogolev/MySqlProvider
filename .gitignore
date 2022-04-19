@@ -1,0 +1,7 @@
+Program.cs
+MySqlProvider.csproj
+Doxyfile
+
+/config/App.config
+/bin
+/obj

@@ -1,0 +1,81 @@
+\hypertarget{classMySqlProvider_1_1MySqlProvider}{}\doxysection{Класс My\+Sql\+Provider.\+My\+Sql\+Provider}
+\label{classMySqlProvider_1_1MySqlProvider}\index{MySqlProvider.MySqlProvider@{MySqlProvider.MySqlProvider}}
+
+
+Предназначен для подключения к базе данных My\+S\+QL, а также реализации отправки S\+Q\+L-\/запросов и получения данных.  
+
+
+\doxysubsection*{Открытые члены}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMySqlProvider_1_1MySqlProvider_ae34a303aebda8acac6f42223063fac3f}{My\+Sql\+Provider}} (string connection\+String)
+\begin{DoxyCompactList}\small\item\em Конструктор \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classMySqlProvider_1_1MySqlProvider_a3a37fbf3d7e9b6077565e041c8e495ea}{Execute}} (string query)
+\begin{DoxyCompactList}\small\item\em Выполняет инструкцию S\+QL и возвращает количество задействованных в инструкции строк. \end{DoxyCompactList}\item 
+My\+Sql\+Data\+Reader \mbox{\hyperlink{classMySqlProvider_1_1MySqlProvider_a2be7d447333e571e6777688a6d8af1f1}{Query}} (string query)
+\begin{DoxyCompactList}\small\item\em Выполняет инструкцию S\+QL и возвращает результат запроса в виде объекта \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Подробное описание}
+Предназначен для подключения к базе данных My\+S\+QL, а также реализации отправки S\+Q\+L-\/запросов и получения данных. 
+
+\doxysubsection{Конструктор(ы)}
+\mbox{\Hypertarget{classMySqlProvider_1_1MySqlProvider_ae34a303aebda8acac6f42223063fac3f}\label{classMySqlProvider_1_1MySqlProvider_ae34a303aebda8acac6f42223063fac3f}} 
+\index{MySqlProvider.MySqlProvider@{MySqlProvider.MySqlProvider}!MySqlProvider@{MySqlProvider}}
+\index{MySqlProvider@{MySqlProvider}!MySqlProvider.MySqlProvider@{MySqlProvider.MySqlProvider}}
+\doxysubsubsection{\texorpdfstring{MySqlProvider()}{MySqlProvider()}}
+{\footnotesize\ttfamily My\+Sql\+Provider.\+My\+Sql\+Provider.\+My\+Sql\+Provider (\begin{DoxyParamCaption}\item[{string}]{connection\+String }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em string} & connection\+String Строка подключения к базе данных \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Методы}
+\mbox{\Hypertarget{classMySqlProvider_1_1MySqlProvider_a3a37fbf3d7e9b6077565e041c8e495ea}\label{classMySqlProvider_1_1MySqlProvider_a3a37fbf3d7e9b6077565e041c8e495ea}} 
+\index{MySqlProvider.MySqlProvider@{MySqlProvider.MySqlProvider}!Execute@{Execute}}
+\index{Execute@{Execute}!MySqlProvider.MySqlProvider@{MySqlProvider.MySqlProvider}}
+\doxysubsubsection{\texorpdfstring{Execute()}{Execute()}}
+{\footnotesize\ttfamily int My\+Sql\+Provider.\+My\+Sql\+Provider.\+Execute (\begin{DoxyParamCaption}\item[{string}]{query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Выполняет инструкцию S\+QL и возвращает количество задействованных в инструкции строк. 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em string} & query S\+Q\+L-\/запрос \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+int 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classMySqlProvider_1_1MySqlProvider_a2be7d447333e571e6777688a6d8af1f1}\label{classMySqlProvider_1_1MySqlProvider_a2be7d447333e571e6777688a6d8af1f1}} 
+\index{MySqlProvider.MySqlProvider@{MySqlProvider.MySqlProvider}!Query@{Query}}
+\index{Query@{Query}!MySqlProvider.MySqlProvider@{MySqlProvider.MySqlProvider}}
+\doxysubsubsection{\texorpdfstring{Query()}{Query()}}
+{\footnotesize\ttfamily My\+Sql\+Data\+Reader My\+Sql\+Provider.\+My\+Sql\+Provider.\+Query (\begin{DoxyParamCaption}\item[{string}]{query }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Выполняет инструкцию S\+QL и возвращает результат запроса в виде объекта 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em string} & query S\+Q\+L-\/запрос \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+My\+Sql\+Data\+Reader 
+\end{DoxyReturn}
+
+
+Объявления и описания членов класса находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+My\+Sql\+Provider.\+cs\end{DoxyCompactItemize}
